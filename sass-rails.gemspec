@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'sass',       '>= 3.1.10'
   s.add_runtime_dependency 'railties',   '~> 3.2.0'
-  s.add_runtime_dependency 'tilt',       '~> 1.3'
+  s.add_runtime_dependency 'tilt',       '>= 1.3'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
